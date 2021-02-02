@@ -1,0 +1,42 @@
+{
+  "name": "@vicentecalfo/tropicos-api-wrapper",
+  "version": "1.0.0",
+  "description": "This wrapper allows you to call methods for gathering data from the Tropicos web service (API).",
+  "main": "dist/tropicos-api.js",
+  "types": "dist/tropicos-api.d.ts",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "ts-node src/tropicos-api.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicentecalfo/tropicos-api-wrapper.git"
+  },
+  "author": "Vicente Calfo <vicentecalfo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vicentecalfo/tropicos-api-wrapper/issues"
+  },
+  "homepage": "https://github.com/vicentecalfo/tropicos-api-wrapper#readme",
+  "keywords": [
+    "tropicos",
+    "tropicos.org",
+    "botanical",
+    "api",
+    "tropicos api"
+  ],
+  "dependencies": {
+    "@akanass/rx-http-request": "^3.3.0",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
