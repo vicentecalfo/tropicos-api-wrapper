@@ -16,7 +16,7 @@ All [methods](#avaiable-methods) return an [observable](#using-observable), howe
 Initialize with config object.
 Property | Default | Required | Description
 ---|---|---|---
-apiKey | null | Yes | Long string of characters and numbers, required to authorize access to the service. [Request API Key](http://services.tropicos.org/help?requestkey).
+apiKey | `null` | Yes | Long string of characters and numbers, required to authorize access to the service. [Request API Key](http://services.tropicos.org/help?requestkey).
 format | `json` | No | Choose how you want your output to be formatted (possible values: `json` and `xml`).
 
 ```javascript
