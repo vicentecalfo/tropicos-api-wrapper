@@ -1,6 +1,6 @@
 {
   "name": "@vicentecalfo/tropicos-api-wrapper",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This wrapper allows you to call methods for gathering data from the Tropicos web service (API).",
   "main": "dist/tropicos-api.js",
   "types": "dist/tropicos-api.d.ts",

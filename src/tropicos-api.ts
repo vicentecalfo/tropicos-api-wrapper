@@ -51,7 +51,7 @@ export class TropicosApi {
      */
 	search(qs: SearchQuery, reqOptions = {}): Observable<RxHttpRequestResponse<Search[]>> {
 		// qs = this.appendAPIKeyAndFormat(qs) as SearchQuery;
-		return RxHR.get(`${this.basePath}/name/Search`, this.requestOptions(qs, reqOptions));
+		return RxHR.get(`${this.basePath}/Name/Search`, this.requestOptions(qs, reqOptions));
 	}
 
 	/**
