@@ -5,9 +5,6 @@
   "main": "dist/tropicos-api.js",
   "types": "dist/tropicos-api.d.ts",
   "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "dev": "ts-node src/tropicos-api.ts",
     "build": "tsc",
