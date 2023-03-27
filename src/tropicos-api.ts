@@ -19,7 +19,7 @@ import {
  * @class
  * @classdesc This class allows you to call methods for gathering data from the Tropicos web service (API).
  */
-export class TropicosApi {
+class TropicosApi {
 	private basePath = 'http://services.tropicos.org/';
 	/**
 	 * @constructor
@@ -164,3 +164,5 @@ export class TropicosApi {
 		return RxHR.get(`${this.basePath}/Name/List`, this.requestOptions(qs, reqOptions));
 	}
 }
+
+export = TropicosApi
